@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.App1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#131312</item>
+        <item name="colorPrimaryVariant">#121211</item>
+        <item name="colorOnPrimary">#FFC107</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#F1E9CE</item>
+        <item name="colorSecondaryVariant">#F1E9CE</item>
+        <item name="colorOnSecondary">#F1E9CE</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="navigationTheme">
+        <item name="colorPrimary">#FFE400</item>
+        <item name="colorControlHighlight">@color/home_white</item>
+    </style>
+</resources>
